@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/Python$BinomialCoefficient.coverage" NAME="BinomialCoefficient Coverage Results" MODIFIED="1503679620351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$MinEditDistance.coverage" NAME="MinEditDistance Coverage Results" MODIFIED="1503685937105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$LongestIncreasingSubsequence.coverage" NAME="LongestIncreasingSubsequence Coverage Results" MODIFIED="1503687953533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$NthFibonacci.coverage" NAME="NthFibonacci Coverage Results" MODIFIED="1503690167728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -58,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonSubsequence.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestCommonSubsequence.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LongestCommonSubsequence.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
               <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NthFibonacci.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NthFibonacci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/MinEditDistance.py" />
         <option value="$PROJECT_DIR$/LongestIncreasingSubsequence.py" />
         <option value="$PROJECT_DIR$/LongestCommonSubsequence.py" />
+        <option value="$PROJECT_DIR$/NthFibonacci.py" />
       </list>
     </option>
   </component>
@@ -151,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LongestCommonSubsequence">
+  <component name="RunManager" selected="Python.NthFibonacci">
     <configuration name="01KnapSackProblem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,24 +178,6 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01KnapSackProblem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="BinomialCoefficient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinomialCoefficient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,20 +236,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="NthFibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NthFibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BinomialCoefficient" />
-      <item index="1" class="java.lang.String" itemvalue="Python.01KnapSackProblem" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MinEditDistance" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LongestIncreasingSubsequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LongestCommonSubsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.01KnapSackProblem" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MinEditDistance" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LongestIncreasingSubsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LongestCommonSubsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.NthFibonacci" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LongestCommonSubsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LongestIncreasingSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MinEditDistance" />
-        <item index="3" class="java.lang.String" itemvalue="Python.01KnapSackProblem" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BinomialCoefficient" />
+        <item index="0" class="java.lang.String" itemvalue="Python.NthFibonacci" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LongestCommonSubsequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LongestIncreasingSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MinEditDistance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.01KnapSackProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +356,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NthFibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
