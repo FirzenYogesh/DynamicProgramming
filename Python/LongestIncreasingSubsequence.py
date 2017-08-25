@@ -9,11 +9,14 @@ def longest_increasing_subsequence(a):
     if n == 0:
         return 0
     t = [1 for i in range(n)]
+    m = 1
     for i in range(1, n):
         for j in range(0, i):
             if a[i] > a[j] and t[i] < t[j] + 1:
                 t[i] = t[j] + 1
-    return max(t)
+                if m < t[i]:
+                    m = t[i]
+    return m
 
 
 # driver program to test the above function
