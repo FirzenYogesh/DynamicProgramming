@@ -6,6 +6,7 @@ Kadane's Algorithm:
 max_so_far = array[0]
 max_ending_here = 0
 for each element i in array
+max_ending_here = array[i]
 check
 1)if max_ending_here < 0
     max_ending_here = 0
