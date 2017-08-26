@@ -2,9 +2,8 @@
 http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/
 """
 
-import sys
 
-
+# find the maximum price that can be obtained with the given price set with Space : O(n*x)
 def cutting_rod(price, n):
     t = [[0 for i in range(n + 1)] for i in range(n + 1)]
     for i in range(1, n + 1):
@@ -16,6 +15,7 @@ def cutting_rod(price, n):
     return t[n][n]
 
 
+# find the maximum price that can be obtained with the given price set with Space : O(n)
 def cutting_rod1(price, n):
     t = [0 for i in range(n + 1)]
     for i in range(1, n + 1):
@@ -24,4 +24,5 @@ def cutting_rod1(price, n):
     return t[n]
 
 
+# driver program to test the above function
 print(cutting_rod([1, 4, 5, 5], 4))

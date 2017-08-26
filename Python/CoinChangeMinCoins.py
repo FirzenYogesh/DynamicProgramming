@@ -18,4 +18,5 @@ def min_coin_change(c, n):
     return t[n] if t[n] != sys.maxsize - 1 else -1
 
 
+# driver program to test the above function
 print(min_coin_change([9, 6, 5, 1], 11))
