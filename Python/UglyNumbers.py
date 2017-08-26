@@ -3,6 +3,7 @@ http://www.geeksforgeeks.org/ugly-numbers/
 """
 
 
+# function to find ugly numbers
 def ugly_numbers(n):
     ugly = [0] * n
     ugly[0] = 1
@@ -24,4 +25,5 @@ def ugly_numbers(n):
     return ugly[-1]
 
 
+# driver program to test the above function
 print(ugly_numbers(150))
