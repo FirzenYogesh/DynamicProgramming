@@ -6,17 +6,19 @@ http://www.geeksforgeeks.org/longest-increasing-subsequence/
 # find the longest increasing subsequence of a given array
 def longest_increasing_subsequence(a):
     n = len(a)
+    # if length of the array is zero then we have no sub-sequence
     if n == 0:
         return 0
+    # create the table to store the longest sub-sequence
     t = [1 for i in range(n)]
-    m = 1
+    # build the table
     for i in range(1, n):
         for j in range(0, i):
+            # if the ith element is greater than jth we update the table at i with the sum at (j) + 1
             if a[i] > a[j] and t[i] < t[j] + 1:
                 t[i] = t[j] + 1
-                if m < t[i]:
-                    m = t[i]
-    return m
+    # return the last element which contains the longest increasing sub-sequence
+    return t[n - 1]
 
 
 # driver program to test the above function
