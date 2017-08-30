@@ -8,7 +8,7 @@ http://www.geeksforgeeks.org/dynamic-programming-set-9-binomial-coefficient/
 # calculate the binomial coefficient of C(n, k) or nCk
 def binomial_coefficient(n, r):
     # create a table to store nCr of a number
-    a = [[1 for c in range(r + 1)] for r in range(n + 1)]
+    a = [[1 for i in range(r + 1)] for i in range(n + 1)]
     # build the table
     for i in range(1, n + 1):
         for j in range(1, r + 1):
